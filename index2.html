@@ -4,28 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="kontainer">
     <h1> Turistställen i Portygal </h1>
     <div class="meny">
-        <a href="index.html">anmält om turistländer och Spanien</a>
-        <a class="aktiv" href="index2.html">Portygal</a>
+        <a href="index.html">Anmält och Spanien</a>
+        <a class="aktiv" href="index2.html">Portugal</a>
         <a href="index3.html">Grekland</a>
      </div>
-    <h2> Lissabon (huvudstad)</h2>
-     <div class="rutnatt">
+   
+     <div class="boxarna">
      <div class="box">
         <figure>
+       <h2> Lissabon (huvudstad)</h2>
          <img src="./bilder/lisabon-portugal-1.jpg" alt="">
-        <figcaption>Lissabon är Portugals huvudstad och ligger vid floden Tejo nära Atlanten. Staden är känd för sina kullar, sitt milda klimat och sin långa historia. I Lissabon finns många populära turistställen, till exempel den gamla stadsdelen Alfama med sina smala gator och traditionell musik. Besökare kan också åka de berömda gula spårvagnarna och njuta av utsikten från olika utsiktsplatser. Kombinationen av kultur, historia och vackra vyer gör Lissabon till ett attraktivt resmål.</figcaption>
+     <figcaption>Lissabon är Portugals huvudstad och ligger vid floden Tejo nära Atlanten. Staden är känd för sina kullar, sitt milda klimat och sin långa historia. I Lissabon finns många populära turistställen, till exempel den gamla stadsdelen Alfama med sina smala gator och traditionell musik. Besökare kan också åka de berömda gula spårvagnarna och njuta av utsikten från olika utsiktsplatser. Kombinationen av kultur, historia och vackra vyer gör Lissabon till ett attraktivt resmål.</figcaption>
+       
+     <div class="button">
+        <button class="btn-visa" onclick="visaText()">Intressant fakta</button>
+        <button class="btn-gom" onclick="gomText()">Göm texten</button>
+    </div>
 
-     </div>
+        <div class="intressant-fakta" style="display: none;">
+            <p>Den berömda spårvagn 28 går genom extremt branta och smala gator som en liten berg-och-dalbana genom staden.</p>
+          </div>
+     </div> 
         <div class="box">
         <figure>
-        <figcaption>Porto</figcaption>
-        <img src="./bilder/Werken-in-Porto-20.jpg" alt="">
+        <h2>Porto</h2>
+       <img src="./bilder/1000_F_79650880_oelmmP6sQ0LjmZKeVV4gV1v7wy4BQvq4.jpg" alt="">
        <figcaption>Porto är en av Portugals största städer och ligger vid floden Douro i norra delen av landet. Staden är känd för sin historia, sina färgglada hus och det berömda portvinet. I Porto finns flera populära turistställen, till exempel den gamla stadsdelen Ribeira som är med på UNESCO:s världsarvslista. Besökare kan också gå över bron Dom Luís I och besöka vinkällare längs floden. Kombinationen av kultur, historia och vacker utsikt gör Porto till ett populärt resmål.</figcaption>
+        
+      </div>
+    </div>
+ 
+
+ <script src="java.js"></script>    
         
 </body>
 </html>

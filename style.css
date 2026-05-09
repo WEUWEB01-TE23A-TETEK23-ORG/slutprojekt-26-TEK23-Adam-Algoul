@@ -1,12 +1,154 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;  
+    padding: 0;
+}
 body{
+    background-color: #adc178;
+    padding: 20px;
+    }
 
-}
-.kontainer{
+    kontainer{
+        background-color: #DD6E42;
+        padding: 25px;
+        margin: auto;
+        border-radius: 20px;
+        width: 1000px;
+    }   
+    .kontainer h1{
+        text-align: center;
+        margin: auto;
+        font-size: 45px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
-}
-h1{
+    }
+    .kontainer h2{
+        font-size: 30px;
+        font-family: "Klee One", cursive;
+        margin: auto;
 
-}
-h2{
 
+    }
+    .kontainer .meny{
+        margin-top: auto;
+        text-align: center;
+        font-size: 22px;
+        padding: 19px;
+        background-color: #E8DAB2;
+        border-radius: 15px;
+    }
+    .kontainer .meny a{
+        font-family: "Klee One", cursive;
+        text-decoration: none;
+        background-color: #f2a65a;
+        padding: 9px;
+        width: 130px;
+        color: #E8DAB2 ;
+        border-radius: 11px;
+
+
+
+    }
+    .kontainer .box{
+        display: flex;
+
+    }
+    .kontainer .boxarna figure{
+        background-color: #E8DAB2;
+        border: 1px solid;
+        width: 100%;
+        border-radius: 20px;
+        padding: 30px;
+        display: grid;
+        
+
+    }
+    .kontainer .boxarna figure h2{
+
+    }
+    .kontainer .boxarna figure img{
+        max-width: 100%;
+
+
+
+    }
+    .kontainer .boxarna figure figcaption{
+        border: 1px solid;
+        padding: 30px;
+        font-family:"Alfa Slab One", serif;
+    }
+    .kontainer .boxarna.box{
+
+
+
+
+
+    }
+    .kontainer .meny a.aktiv{
+        background-color: #adc178;
+    }
+    .kontainer .boxarna{
+        display: grid;
+        grid-template-columns: 3fr 3fr;
+        gap: 5px;
+        align-items: stretch;
+        
+     
+        
+    
+    }
+    .kontainer .box1 figure {
+        background-color: #E8DAB2;  
+        border: 1px solid;
+        width: 1150px;
+        padding: 30px;
+        border-radius: 30px;
+    }
+    .kontainer .box1 h2{
+        font-size: 25px;
+        text-align: center;
+    }
+    .kontainer .box1 p{
+        text-align: center;
+        font-family: "Klee One", cursive;
+        font-size: 15px;
+        margin: auto;
+
+
+    }
+    .kontainer .boxarna figure figcaption h2{
+        font-size: 25px;
+        
+    }
+   .kontainer button  {
+    padding: 10px 76px;
+    border: none;
+    border-radius: 5px;
+    background-color:#4f680a ;
+    color: #fff 
+
+    
+    
 }
+ .kontainer .intressant-fakta {
+    margin-top: 20px;
+    padding: 50px;
+    background-color:#f2a65a ;
+    border-radius: 8px;
+    
+    
+   
+}
+.kontainer .hemlig-lada h2{
+    font-size: 30px;
+}
+
+.kontainer .hemlig-lada p{
+    font-size: 10px;
+}
+
